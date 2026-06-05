@@ -1,0 +1,42 @@
+site_name: synth-suite
+site_description: Central hub for the Elkins Biophysics Suite
+site_author: George Elkins
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Component Projects:
+    - synth-pdb: https://elkins.github.io/synth-pdb
+    - synth-nmr: https://elkins.github.io/synth-nmr
+    - synth-cryo-em: https://elkins.github.io/synth-cryo-em
+    - synth-afm: https://elkins.github.io/synth-afm
+    - diff-biophys: https://elkins.github.io/diff-biophys
+  - Roadmap: ROADMAP.md
