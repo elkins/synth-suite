@@ -8,7 +8,7 @@
 
 Experience the full power of the ecosystem:
 
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elkins/synth-suite/blob/main/docs/end_to_end_validation.ipynb) **End-to-End Multi-Modal Validation** — Simulate NMR, SAXS, AFM, and Cryo-EM from a single structure.
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elkins/synth-suite/blob/main/examples/interactive_tutorials/end_to_end_validation.ipynb) **End-to-End Multi-Modal Validation** — Simulate NMR, SAXS, AFM, and Cryo-EM from a single structure.
 
 ---
 
